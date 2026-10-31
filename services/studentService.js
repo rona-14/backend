@@ -1,8 +1,7 @@
 import * as studentModel from '../models/studentModel.js';
 
-export const fetchAllStudents = async() =>{
-    const students = await studentModel.fetch();
-    return students;
+export const fetchAllStudent = async() =>{
+    return await studentModel.fetchAllStudent();
 }
 
 export const createStudent = async(student) =>{

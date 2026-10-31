@@ -1,6 +1,5 @@
 import * as bookModel from '../models/bookModel.js';
 
 export const fetchAllBooks = async() =>{
-    const books = await bookModel.fetch();
-    return books;
+    return await bookModel.fetch();
 }
