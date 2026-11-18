@@ -1,4 +1,4 @@
-import pool from "../config/db/js";
+import pool from "../config/db.js";
 
 // insert into database
 export const insert = async(name, email, password) =>{
